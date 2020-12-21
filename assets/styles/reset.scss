@@ -1,0 +1,39 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+body{
+	scroll-behavior: auto;
+	font-weight: inherit;
+}
+
+* {
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+	cursor: pointer;
+	width: 8px;
+	background-color: white;
+}
+
+::-webkit-scrollbar-track {
+	border-left: 1px solid #E0E0E0;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	border-radius: 100px;
+	background: #E0E0E0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #BDBDBD;
+}

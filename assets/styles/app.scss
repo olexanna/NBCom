@@ -1,0 +1,36 @@
+@font-face {
+	src: url( '/assets/fonts/Roboto-Regular.ttf');
+	font-weight: normal;
+	font-family: 'Roboto';
+}
+
+@font-face {
+	src: url( '/assets/fonts/SourceSansPro-Bold.ttf');
+	font-weight: normal;
+	font-family: 'SansProBold';
+}
+
+@font-face {
+	src: url( '/assets/fonts/SourceSansPro-Reg.ttf');
+	font-weight: normal;
+	font-family: 'SourceSansPro-Reg';
+}
+
+
+@font-face {
+	src: url( '/assets/fonts/custom-icons.ttf');
+	font-weight: normal;
+	font-family: 'custom';
+}
+
+@font-face {
+	src: url( '/assets/fonts/icomoon.ttf');
+	font-weight: normal;
+	font-family: 'icomoon';
+}
+
+
+.app{
+	color: #3a4e77;
+	height: 100%;
+}
